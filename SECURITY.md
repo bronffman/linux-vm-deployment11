@@ -1,23 +1,21 @@
 # Security policy for this example repository
 
-This repository contains documentation and non-production examples only.
+Этот репозиторий содержит только документацию и примеры, не предназначенные для использования в production-среде.
 
-Do not commit:
+Не добавляйте в репозиторий:
 
-- passwords, tokens, private keys or certificates;
-- real IP addresses, hostnames or internal domains;
-- employee names or account identifiers;
-- production inventory;
-- vCenter, AD, DNS, CMDB or monitoring credentials;
-- screenshots from administrative consoles;
-- unredacted logs or configuration files.
+- пароли, токены, приватные ключи или сертификаты;
+- реальные IP-адреса, имена хостов или внутренние домены;
+- имена сотрудников или идентификаторы учетных записей;
+- production-инвентарь;
+- учетные данные для vCenter, Active Directory, DNS, CMDB или систем мониторинга;
+- скриншоты административных консолей;
+- необезличенные журналы событий или конфигурационные файлы.
 
-Before publishing a fork:
+Перед публикацией форка:
 
-1. run a secret scanner;
-2. search Git history, not only the current files;
-3. replace all environment-specific values;
-4. validate that screenshots contain no metadata or hidden text;
-5. obtain security and legal approval when required.
-
-Report accidental exposure through the private security channel of the repository owner, not a public issue.
+1. запустите сканирование на наличие секретов;
+2. проверьте всю историю Git, а не только текущие файлы;
+3. замените все значения, относящиеся к конкретной инфраструктуре;
+4. убедитесь, что скриншоты не содержат метаданных или скрытого текста;
+5. при необходимости получите согласование от службы безопасности и юридического отдела.

@@ -55,16 +55,14 @@ flowchart LR
 ```text
 .
 ├── README.md
-├── docs
-│   ├── 01-preparation.md
-│   ├── 02-vm-creation.md
-│   └── 03-domain-join.md
-├── examples
-│   ├── cloud-init.yaml
-│   ├── netplan-single-nic.yaml
-│   ├── netplan-dual-nic.yaml
-│   └── rhel-network-nmcli.sh
-└── SECURITY.md
+├── linux-vm-deployment-runbook.md
+├── REVIEW.md
+├── SECURITY.md
+└── examples
+    ├── cloud-init.yaml
+    ├── netplan-single-nic.yaml
+    ├── netplan-dual-nic.yaml
+    └── rhel-network-nmcli.sh
 ```
 
 ## Основные принципы
